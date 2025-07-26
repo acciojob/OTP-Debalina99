@@ -1,5 +1,8 @@
 //your JS code here. If required.
 const inputs = document.querySelectorAll('.code');
+window.addEventListener('load', () => {
+  document.getElementById('code-1').focus();
+});
 
 inputs.forEach((input, index) => {
   input.addEventListener('input', (e) => {
